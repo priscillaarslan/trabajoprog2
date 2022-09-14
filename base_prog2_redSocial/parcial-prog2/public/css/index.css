@@ -294,3 +294,43 @@ main {
     justify-content: space-between;
     width: 100%;
 }
+
+
+/*REGISTRACION*/
+
+.cajaregistro {
+    margin-left: 3cm;
+}
+
+.cajaregistro1{
+    margin-left: 4.25cm;
+}
+
+.cajaregistro2{
+    margin-left: 2.6cm;
+}
+
+.cajaregistro3{
+    margin-left: 1.03cm;
+}
+
+.cajaregistro4{
+    margin-left: 4.58cm;
+}
+
+.buttonregistro{
+    margin-top: 0.8cm;
+}
+
+/*LOGIN*/
+.cajalogin{
+    margin-left: 2cm;
+}
+
+.cajalogin1{
+    margin-left: 0.75cm;
+}
+
+.buttonlogeate{
+margin-top: 1cm;
+}
