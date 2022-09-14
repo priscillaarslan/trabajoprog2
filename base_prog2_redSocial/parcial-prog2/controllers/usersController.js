@@ -11,7 +11,7 @@ const usersController = {
       },
     miPerfil: function(req, res) {
       console.log(data);
-        res.render('miPerfil',{info: data.usuarios[0],posts:data.posteos});
+        res.render('miPerfil',{info: data.usuarios[0], posts:data.posteos});
       },
       registracion: function(req, res) {
         res.render('registracion');
@@ -20,4 +20,4 @@ const usersController = {
     
     //exportacion
     
-    module.exports = usersController
+    module.exports = usersController;
