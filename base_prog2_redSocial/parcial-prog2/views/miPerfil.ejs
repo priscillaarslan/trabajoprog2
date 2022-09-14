@@ -14,20 +14,21 @@
                     <p> <%= info.username  %>  </p>
                     <a class="follow" href="/users/editarPerfil"><i class="fa-solid fa-user-gear"></i></a>
                     <ul class="meta">
-                        <li> <%= info.posteos %> </li>
-                        <li> <%= info.seguidores %> </li>
-                        <li> <%= info.seguidos %> </li>
+                        <li> <%= info.posts %> </li>
+                        <li><%= info.seguidores %></li>
+                        <li><%= info.seguidos %></li>
                     </ul>
                 </div>
             </section>
             <section class="bottom">
-                <% for (let i = 0; i < posteos.length; i++) { %> 
+                <% for (let i = 0; i <posts.length; i++) { %> git
                    <article class="post">
-                       <a href="/posts/detallePost">
-                        <img src="<%= posts.[i].foto %> " alt="" >
-                      <p>  <%= posteos.[i].texto %>  </p>
-                       </a>
-                 </article>
+                    <a href="/posts/detallePost">
+                        <img src="<%= info.foto %> " alt="" >
+                      <p> <%= posts[i].texto %> </p>
+                    </a>
+                    
+                    </article>
             <% } %> 
            <article class="post">
                     <a href="/posts/detallePost">
