@@ -3,9 +3,7 @@ const usersController = {
     detalleUsuario: function(req, res) {
         res.render('detalleUsuario');
       },
-    editarPerfil: function(req, res) {
-        res.render('editarPerfil', {info: data.usuarios});
-      },
+   
       Login: function(req, res) {
         res.render('Login');
       },
