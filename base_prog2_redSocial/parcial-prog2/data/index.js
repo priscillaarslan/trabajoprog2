@@ -34,7 +34,7 @@ usuarios:[
         seguidos: 0,
     },
 ],
-posts : [
+posteos : [
 {
     foto :  "https://via.placeholder.com/200x250",
     texto: " foto random",

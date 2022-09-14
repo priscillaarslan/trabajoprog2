@@ -4,17 +4,21 @@ const usersController = {
         res.render('detalleUsuario');
       },
    
-      Login: function(req, res) {
-        res.render('Login');
+      login: function(req, res) {
+        res.render('login');
       },
     miPerfil: function(req, res) {
       console.log(data);
-        res.render('miPerfil',{info: data.usuarios[0], posts:data.posteos});
+        res.render('miPerfil',{info: data.usuarios[0], posts:data.posts});
       },
       registracion: function(req, res) {
         res.render('registracion');
       },
+      editarPerfil: function(req, res, next) {
+        res.render('editarPerfil');
+      },
     }  
+    
     
     //exportacion
     
