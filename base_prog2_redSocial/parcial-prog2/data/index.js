@@ -7,7 +7,7 @@ usuarios:[
         password: "4723",
         fecha : "2002/09/11",
         dni : 43628502,
-       posts: 1,
+       posteos: 1,
        seguidores: 10,
         seguidos: 5,
     },
@@ -18,7 +18,7 @@ usuarios:[
         password: "4723",
         fecha : "2002/09/11",
         dni : 43628502,
-       posts: 0,
+       posteos: 0,
        seguidores: 0,
         seguidos: 0,
     },
@@ -29,12 +29,12 @@ usuarios:[
         password: "4723",
         fecha : "2002/09/11",
         dni : 43628502,
-       posts: 0,
+       posteos: 0,
        seguidores: 0,
         seguidos: 0,
     },
 ],
-posts : [
+posteos : [
 {
     foto :  "https://via.placeholder.com/200x250",
     texto: " foto random",
